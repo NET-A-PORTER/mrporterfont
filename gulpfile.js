@@ -21,7 +21,7 @@ gulp.task('default', function(){
           return { name: glyph.name, codepoint: glyph.unicode[0].charCodeAt(0) }
         }),
         fontName: fontName,
-        fontPath: '../fonts/', // set path to font (from your CSS file if relative)
+        fontPath: 'fonts/', // set path to font (from your CSS file if relative)
         className: 'ppfont' // set class name in your CSS
       };
       gulp.src('templates/' + template + '.css')
@@ -32,7 +32,7 @@ gulp.task('default', function(){
       // if you don't need sample.html, remove next 4 lines
       gulp.src('templates/' + template + '.html')
         .pipe(consolidate('lodash', options))
-        .pipe(rename({ basename:'sample' }))
+        .pipe(rename({ basename:'demo' }))
         .pipe(gulp.dest('dist/')); // set path to export your sample HTML
     })
     .pipe(gulp.dest('dist/fonts/')); // set path to export your fonts
