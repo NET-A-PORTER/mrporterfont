@@ -16,7 +16,7 @@
     <h1><%= fontName %></h1>
     <ul class="glyph"><% _.each(glyphs, function(glyph) { %>
       <li>
-        <span class="<%= className %>-<%= glyph.name %>"></span>
+        <span class="<%= className %>--<%= glyph.name %>"></span>
         <span class="glyph-name"><%= glyph.name %></span>
         <span class="glyph-codepoint"><%= glyph.codepoint.toString(16).toUpperCase() %></span>
       </li><% }); %>

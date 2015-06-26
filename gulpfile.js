@@ -30,13 +30,19 @@ gulp.task('default',['clean'], function(){
         .pipe(rename({ basename:fontName }))
         .pipe(gulp.dest('dist/css/')); // set path to export your CSS
 
+        gulp.src('templates/' + template + '.scss')
+          .pipe(consolidate('lodash', options))
+          .pipe(rename({ basename:fontName }))
+          .pipe(gulp.dest('dist/')); // set path to export your SCSS
+
       // if you don't need sample.html, remove next 4 lines
       gulp.src('templates/' + template + '.html')
         .pipe(consolidate('lodash', options))
         .pipe(rename({ basename:'demo' }))
         .pipe(gulp.dest('dist/')); // set path to export your sample HTML
     })
-    .pipe(gulp.dest('dist/fonts/')); // set path to export your fonts
+    .pipe(gulp.dest('dist/fonts')) // set path to export your fonts
+        .pipe(gulp.dest('dist/css/fonts')); // set path to export your fonts
 });
 
 gulp.task('clean', function () {
