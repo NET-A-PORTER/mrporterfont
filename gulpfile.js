@@ -8,7 +8,7 @@ var clean = require('gulp-clean');
 var fontName = 'ppfont'; // set name of your symbol font
 var template = 'mrporter-style'; // you can also choose 'foundation-style'
 
-gulp.task('default', function(){
+gulp.task('default',['clean'], function(){
   gulp.src('mrporter.sketch') // you can also choose 'symbol-font-16px.sketch'
     .pipe(sketch({
       export: 'artboards',
