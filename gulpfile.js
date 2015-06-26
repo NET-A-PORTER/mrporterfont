@@ -3,6 +3,7 @@ var rename = require("gulp-rename");
 var sketch = require("gulp-sketch");
 var iconfont = require('gulp-iconfont');
 var consolidate = require('gulp-consolidate');
+var clean = require('gulp-clean');
 
 var fontName = 'ppfont'; // set name of your symbol font
 var template = 'mrporter-style'; // you can also choose 'foundation-style'
@@ -37,6 +38,12 @@ gulp.task('default', function(){
     })
     .pipe(gulp.dest('dist/fonts/')); // set path to export your fonts
 });
+
+gulp.task('clean', function () {
+  return gulp.src('dist/**/*', {read: false})
+    .pipe(clean({force: true}));
+});
+
 
 gulp.task('watch', function(){
   gulp.watch('*.sketch/Data', { debounceDelay: 3000 }, ['symbols']); // wait 3 sec after the last run
