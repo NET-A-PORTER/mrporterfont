@@ -1,7 +1,7 @@
 #Mr Porter Font
 Sketch to Fonts
 
-![Screenshot of Template](images/template.png)
+![Screenshot of Template](images/webfonts.png)
 ## Requirements
 
 - Mac

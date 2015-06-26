@@ -1,0 +1,14 @@
+{
+    "name": "mrporterfont",
+    "homepage": "https://github.com/NET-A-PORTER/mrporterfont.git",
+    "authors": [
+        "Sabeur Thabti <sabeur.thabti@net-a-porter.com>"
+    ],
+    "description": "Productpagefont",
+    "main": "dist",
+    "license": "BSD3",
+    "ignore": [
+        "**/*",
+        "!dist/**/*",
+    ]
+}
