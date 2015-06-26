@@ -6,6 +6,21 @@ Sketch to Fonts
 
 ![Screenshot of Template](images/ppfont.png)
 
+
+#Usages
+
+bower:
+
+```
+  bower install mrporterfont --save-dev
+```
+
+html:
+
+``` html
+          <i class="ppfont--minus"></i>
+```
+
 ## Requirements
 
 - Mac
