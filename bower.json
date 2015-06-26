@@ -1,14 +1,25 @@
 {
-    "name": "mrporterfont",
-    "homepage": "https://github.com/NET-A-PORTER/mrporterfont.git",
-    "authors": [
-        "Sabeur Thabti <sabeur.thabti@net-a-porter.com>"
-    ],
-    "description": "Productpagefont",
-    "main": "dist",
-    "license": "BSD3",
-    "ignore": [
-        "**/*",
-        "!dist/**/*"
-    ]
+  "name": "mrporterfont",
+  "version": "0.0.1",
+  "homepage": "https://github.com/NET-A-PORTER/mrporterfont",
+  "authors": [
+    "Sabeur Thabti <sabeur.thabti@net-a-porter.com>"
+  ],
+  "description": "Symbol font templates for Sketch.app",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "sketch",
+    "font",
+    "mrporter"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "**/*",
+    "node_modules",
+    "bower_components",
+    "!dist/**/*"
+  ]
 }
