@@ -99,31 +99,3 @@ You can choose CSS Style templates (mrporter-style), and make your own with [lod
 ```html
 <span class="s-your_icon"></span>
 ```
-
-## Trouble Shooting
-
-#### Case 1: Icons with circle 'filled' with black
-
-Conditions like below.
-
-- Icons which has an inner symbol with a circle or a box outside
-- It seems OK with Chrome/Safari on Mac
-- Not OK with Safari on iOS, Chrome on Android
-- Not OK with IE on Windows
-
-Solution: Revers Order of paths. See the screenshot below. Then Save and recreate the font.
-
-![Path Order](images/path-order.png)
-
-#### Case 2: Can't export CSS/HTML
-
-[gulp-iconfont](https://github.com/nfroidure/gulp-iconfont) has changed their API from v2 (June 2015), so we got to change our recipe a little bit.
-
-- Event name: `codepoints` to `glyphs`
-- Arguments passed: `codepoint` is equivalent to `glyph.unicode[0].charCodeAt(0)`
-
-[See more detail](https://github.com/cognitom/symbols-for-sketch/blob/6cf363c0926f2ea00f7249c65cea7a279e590601/gulpfile.js#L17-L26).
-
-## History
-
-- 1.1.0: Catch up to [gulp-iconfont v2](https://github.com/nfroidure/gulp-iconfont)([svgicons2svgfont](https://github.com/nfroidure/svgicons2svgfont))
