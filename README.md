@@ -80,22 +80,3 @@ Edit `gulpfile.js`
 ## CSS Styles
 
 You can choose CSS Style templates (mrporter-style), and make your own with [lodash template](http://lodash.com/docs#template).
-
-#### (1) like Font Awesome
-
-- respect to: [Font Awesome](http://fontawesome.io/)
-- template: `css/fontawesome-style.css`
-
-```html
-<span class="s s-your_icon"></span>
-```
-
-
-#### (2) like Foundation
-
-- respect to: [Foundation Icon Font 3](http://zurb.com/playground/foundation-icon-fonts-3)
-- template: `css/foundation-style.css`
-
-```html
-<span class="s-your_icon"></span>
-```
