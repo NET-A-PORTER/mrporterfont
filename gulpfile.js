@@ -5,7 +5,7 @@ var iconfont = require('gulp-iconfont');
 var consolidate = require('gulp-consolidate');
 var clean = require('gulp-clean');
 
-var fontName = 'ppfont'; // set name of your symbol font
+var fontName = 'mrpfont'; // set name of your symbol font
 var template = 'mrporter-style'; // you can also choose 'foundation-style'
 
 gulp.task('default',['clean'], function(){
@@ -23,7 +23,7 @@ gulp.task('default',['clean'], function(){
         }),
         fontName: fontName,
         fontPath: 'fonts/', // set path to font (from your CSS file if relative)
-        className: 'ppfont' // set class name in your CSS
+        className: fontName // set class name in your CSS
       };
       gulp.src('templates/' + template + '.css')
         .pipe(consolidate('lodash', options))

@@ -1,4 +1,6 @@
-#Mr Porter Font
+[Mr Porter Font](http://net-a-porter.github.io/mrporterfont/)
+====
+
 Sketch to Fonts
 ![Screenshot of Template](images/webfonts.png)
 
@@ -6,6 +8,9 @@ Sketch to Fonts
 
 ![Screenshot of Template](images/ppfont.png)
 
+#Demo
+
+[Demo page](http://net-a-porter.github.io/mrporterfont/)
 
 #Usages
 
@@ -21,7 +26,7 @@ html:
           <i class="ppfont--minus"></i>
 ```
 
-## Requirements
+## Requirements to start contributing
 
 - Mac
 - [Sketch 3](http://bohemiancoding.com/sketch) and [Sketch Tools](http://bohemiancoding.com/sketch/tool/)
@@ -99,3 +104,34 @@ Edit `gulpfile.js`
 ## CSS Styles
 
 You can choose CSS Style templates (mrporter-style), and make your own with [lodash template](http://lodash.com/docs#template).
+
+## Admin Only
+
+### Push a release tag:
+
+When doing a release, please tag by incrementing the git tags. To identify the current tag number:
+
+``` bash
+  git tag
+```
+
+adding a new tag:
+
+``` bash
+  git tag v0.0.5
+```
+
+
+push the tags to github:
+
+``` bash
+  git push --tags
+```
+
+### Push demo page (Github pages)
+
+We use [Github Pages](http://net-a-porter.github.io/mrporterfont/)  to demo the fonts. With each release pleae use the gulp task to push the latest demo:
+
+``` bash
+  gulp gp
+```
