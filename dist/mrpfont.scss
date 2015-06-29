@@ -9,6 +9,8 @@
   font-style: normal;
 }
 
+.mrpfont--fontone:before,
+.mrpfont--fonttwo:before,
 .mrpfont--minus:before,
 .mrpfont--plus:before,
 .mrpfont--star:before {
@@ -28,6 +30,8 @@
   -moz-osx-font-smoothing:grayscale;
 }
 
-.mrpfont--minus:before { content: "\EA01" }
-.mrpfont--plus:before { content: "\EA02" }
-.mrpfont--star:before { content: "\EA03" }
+.mrpfont--fontone:before { content: "\EA01" }
+.mrpfont--fonttwo:before { content: "\EA02" }
+.mrpfont--minus:before { content: "\EA03" }
+.mrpfont--plus:before { content: "\EA04" }
+.mrpfont--star:before { content: "\EA05" }
