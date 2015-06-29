@@ -50,6 +50,22 @@ gulp.task('clean', function () {
     .pipe(clean({force: true}));
 });
 
+gulp.task('gp', function(done) {
+  var ghpages = require('gh-pages');
+  var path = require('path');
+
+  ghpages.publish(path.join(__dirname, 'dist'), function(err) {
+    if(err) {
+      done(err); 
+    } else {
+      done();
+    }
+
+    });
+
+
+})
+
 
 gulp.task('watch', function(){
   gulp.watch('*.sketch/Data', { debounceDelay: 3000 }, ['symbols']); // wait 3 sec after the last run
