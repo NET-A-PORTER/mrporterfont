@@ -38,7 +38,7 @@ gulp.task('default',['clean'], function(){
       // if you don't need sample.html, remove next 4 lines
       gulp.src('templates/' + template + '.html')
         .pipe(consolidate('lodash', options))
-        .pipe(rename({ basename:'demo' }))
+        .pipe(rename({ basename:'index' }))
         .pipe(gulp.dest('dist/')); // set path to export your sample HTML
     })
     .pipe(gulp.dest('dist/fonts')) // set path to export your fonts
@@ -56,7 +56,7 @@ gulp.task('gp', function(done) {
 
   ghpages.publish(path.join(__dirname, 'dist'), function(err) {
     if(err) {
-      done(err); 
+      done(err);
     } else {
       done();
     }
