@@ -1,10 +1,9 @@
 [Mr Porter Font](http://net-a-porter.github.io/mrporterfont/)
-====
+===
 
-Sketch to Fonts
 ![Screenshot of Template](images/webfonts.png)
 
-#PP Font
+#The Font
 
 ![Screenshot of Template](images/ppfont.png)
 
@@ -23,7 +22,7 @@ bower:
 html:
 
 ``` html
-          <i class="ppfont--minus"></i>
+          <i class="mrpfont--minus"></i>
 ```
 
 ## Requirements to start contributing

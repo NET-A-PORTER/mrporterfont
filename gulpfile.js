@@ -25,6 +25,8 @@ gulp.task('default',['clean'], function(){
         fontPath: 'fonts/', // set path to font (from your CSS file if relative)
         className: fontName // set class name in your CSS
       };
+
+
       gulp.src('templates/' + template + '.css')
         .pipe(consolidate('lodash', options))
         .pipe(rename({ basename:fontName }))
@@ -34,6 +36,9 @@ gulp.task('default',['clean'], function(){
           .pipe(consolidate('lodash', options))
           .pipe(rename({ basename:fontName }))
           .pipe(gulp.dest('dist/')); // set path to export your SCSS
+
+          console.log(options)
+
 
       // if you don't need sample.html, remove next 4 lines
       gulp.src('templates/' + template + '.html')
@@ -46,7 +51,7 @@ gulp.task('default',['clean'], function(){
 });
 
 gulp.task('clean', function () {
-  return gulp.src('dist/**/*', {read: false})
+  return gulp.src('dist/**/*')
     .pipe(clean({force: true}));
 });
 
