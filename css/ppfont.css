@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "ppfont";
+  src: url('fonts/ppfont.eot');
+  src: url('fonts/ppfont.eot?#iefix') format('eot'),
+    url('fonts/ppfont.woff') format('woff'),
+    url('fonts/ppfont.ttf') format('truetype'),
+    url('fonts/ppfont.svg#ppfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ppfont--minus:before,
+.ppfont--plus:before,
+.ppfont--star:before {
+  font-family: "ppfont";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  text-decoration: inherit;
+}
+
+.ppfont--minus:before { content: "\EA01" }
+.ppfont--plus:before { content: "\EA02" }
+.ppfont--star:before { content: "\EA03" }
