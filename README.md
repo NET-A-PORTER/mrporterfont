@@ -1,4 +1,5 @@
-#Mr Porter Font
+[Mr Porter Font](http://net-a-porter.github.io/mrporterfont/) 
+
 Sketch to Fonts
 ![Screenshot of Template](images/webfonts.png)
 
@@ -6,6 +7,9 @@ Sketch to Fonts
 
 ![Screenshot of Template](images/ppfont.png)
 
+#Demo
+
+[Demo page](http://net-a-porter.github.io/mrporterfont/) 
 
 #Usages
 
@@ -21,7 +25,7 @@ html:
           <i class="ppfont--minus"></i>
 ```
 
-## Requirements
+## Requirements to start contributing
 
 - Mac
 - [Sketch 3](http://bohemiancoding.com/sketch) and [Sketch Tools](http://bohemiancoding.com/sketch/tool/)
