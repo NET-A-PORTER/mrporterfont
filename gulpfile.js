@@ -61,11 +61,7 @@ gulp.task('bump', function (done) {
   var child_process = require('child_process');
   // exec: spawns a shell.
   child_process.exec('npm version patch', function(error, stdout, stderr){
-  	console.log(stdout);
     console.log(error);
-    console.log(stderr);
-
-
     done();
   });
 
@@ -103,6 +99,7 @@ gulp.task('gp', function(done) {
 
 })
 
+gulp.task('release',['gp','tag], function(done){ done();});
 
 gulp.task('default',['font'], function(done){ done();});
 
