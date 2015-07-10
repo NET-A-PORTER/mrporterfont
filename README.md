@@ -106,6 +106,15 @@ You can choose CSS Style templates (mrporter-style), and make your own with [lod
 
 ## Admin Only
 
+
+To release, do the following
+```
+  gulp release
+
+``
+
+
+
 ### Push a release tag:
 
 When doing a release, please tag by incrementing the git tags. To identify the current tag number:

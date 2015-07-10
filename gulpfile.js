@@ -73,11 +73,14 @@ gulp.task('tag', function (done) {
 
   var child_process = require('child_process');
   // exec: spawns a shell.
-  var command = 'git tag v'+version + ' && git push --tag'
+  var command = 'git tag v'+version;
   child_process.exec(command, function(error, stdout, stderr){
   	console.log(stdout);
-    console.log(command);
-    done();
+    // git push --tag
+    child_process.exec('git push --tag', function(error, stdout, stderr){
+    	console.log(stdout);
+      done();
+    });
   });
 
 });
