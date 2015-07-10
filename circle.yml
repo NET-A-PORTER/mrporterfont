@@ -1,3 +1,7 @@
+machine:
+  xcode:
+    version: "6.3.1"
+    
 dependencies:
   pre:
     - curl -L https://raw.githubusercontent.com/cognitom/dotfiles/master/lib/sketchtool.sh | sudo sh
