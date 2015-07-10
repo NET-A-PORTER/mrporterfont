@@ -14,7 +14,8 @@ deployment:
       - echo "doing a patch update!"
       - git config --global user.email "mrportertechteam@mrporter.com"
       - git config --global user.name "mrporterdev"
-      - rm -rf dist
       - npm version patch
       - gulp
-      - 
+      - gulp tag
+      - git commit --a -m 'automated patching [ci skip]'
+      - git push
