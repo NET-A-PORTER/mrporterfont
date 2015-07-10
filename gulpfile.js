@@ -61,7 +61,7 @@ gulp.task('tag', function (done) {
 
   var child_process = require('child_process');
   // exec: spawns a shell.
-  var command = 'git tag v'+version
+  var command = '&& git tag v'+version + ' && git push --tag'
   child_process.exec(command, function(error, stdout, stderr){
   	console.log(stdout);
     console.log(command);
@@ -88,7 +88,7 @@ gulp.task('gp', function(done) {
 })
 
 
-gulp.task('default',['font', tags], function(done){ done();});
+gulp.task('default',['font'], function(done){ done();});
 
 gulp.task('watch', function(){
   gulp.watch('*.sketch/**/*', { debounceDelay: 2000 }, ['clean']); // wait 3 sec after the last run
