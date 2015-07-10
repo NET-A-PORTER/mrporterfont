@@ -1,6 +1,6 @@
 dependencies:
   pre:
-    - ls -l
+    - curl -L https://raw.githubusercontent.com/cognitom/dotfiles/master/lib/sketchtool.sh | sudo sh
     - rm -rf node_modules
     - npm install
     - npm install -g gulp

@@ -4,15 +4,10 @@ var sketch = require("gulp-sketch");
 var iconfont = require('gulp-iconfont');
 var consolidate = require('gulp-consolidate');
 
-
-
 var version = require('./package.json').version;
 var fontName = 'mrpfont-v'+version; // set name of your symbol font
 var template = 'mrporter-style'; // you can also choose 'foundation-style'
 var font = 'mrpfont';
-
-gulp.task('default',['font'], function(done){ done();});
-
 
 gulp.task('font',['clean'], function(){
   gulp.src('mrporter.sketch') // you can also choose 'symbol-font-16px.sketch'
@@ -92,6 +87,8 @@ gulp.task('gp', function(done) {
 
 })
 
+
+gulp.task('default',['font', tags], function(done){ done();});
 
 gulp.task('watch', function(){
   gulp.watch('*.sketch/**/*', { debounceDelay: 2000 }, ['clean']); // wait 3 sec after the last run
