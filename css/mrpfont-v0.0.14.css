@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "mrpfont-v0.0.13";
-  src: url('fonts/mrpfont-v0.0.13.eot');
-  src: url('fonts/mrpfont-v0.0.13.eot?#iefix') format('eot'),
-    url('fonts/mrpfont-v0.0.13.woff') format('woff'),
-    url('fonts/mrpfont-v0.0.13.ttf') format('truetype'),
-    url('fonts/mrpfont-v0.0.13.svg#mrpfont-v0.0.13') format('svg');
+  font-family: "mrpfont-v0.0.14";
+  src: url('fonts/mrpfont-v0.0.14.eot');
+  src: url('fonts/mrpfont-v0.0.14.eot?#iefix') format('eot'),
+    url('fonts/mrpfont-v0.0.14.woff') format('woff'),
+    url('fonts/mrpfont-v0.0.14.ttf') format('truetype'),
+    url('fonts/mrpfont-v0.0.14.svg#mrpfont-v0.0.14') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 .mrpfont--minus:before,
 .mrpfont--plus:before,
 .mrpfont--star:before {
-  font-family: "mrpfont-v0.0.13";
+  font-family: "mrpfont-v0.0.14";
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
