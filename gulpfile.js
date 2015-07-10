@@ -76,16 +76,30 @@ gulp.task('tag', function (done) {
   var command = 'git tag v'+version;
   child_process.exec(command, function(error, stdout, stderr){
   	console.log(stdout);
-    // git push --tag
-    child_process.exec('git push --tag', function(error, stdout, stderr){
-    	console.log(stdout);
-      done();
-    });
+    console.log(error);
+
+
+    done();
+
   });
 
 });
 
 
+
+gulp.task('push-tag', function (done) {
+  var child_process = require('child_process');
+
+// git push --tag
+child_process.exec('git push --tag', function(error, stdout, stderr){
+  console.log(stderr);
+  console.log(error);
+  done();
+
+});
+
+
+});
 gulp.task('gp', function(done) {
   var ghpages = require('gh-pages');
   var path = require('path');
@@ -102,7 +116,7 @@ gulp.task('gp', function(done) {
 
 })
 
-gulp.task('release',['gp','tag'], function(done){ done();});
+gulp.task('release',['gp','tag', 'push-tag'], function(done){ done();});
 
 gulp.task('default',['font'], function(done){ done();});
 
