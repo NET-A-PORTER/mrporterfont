@@ -9,7 +9,7 @@ var fontName = 'mrpfont-v'+version; // set name of your symbol font
 var template = 'mrporter-style'; // you can also choose 'foundation-style'
 var font = 'mrpfont';
 
-gulp.task('font',['clean'], function(){
+gulp.task('font',['clean', 'bump'], function(){
   gulp.src('mrporter.sketch') // you can also choose 'symbol-font-16px.sketch'
   .pipe(sketch({
     export: 'artboards',
@@ -60,10 +60,12 @@ gulp.task('bump', function (done) {
 
   var child_process = require('child_process');
   // exec: spawns a shell.
-  var command = 'npm version patch';
-  child_process.exec(command, function(error, stdout, stderr){
+  child_process.exec('npm version patch', function(error, stdout, stderr){
   	console.log(stdout);
-    console.log(command);
+    console.log(error);
+    console.log(stderr);
+
+
     done();
   });
 
