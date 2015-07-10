@@ -99,7 +99,7 @@ gulp.task('gp', function(done) {
 
 })
 
-gulp.task('release',['gp','tag], function(done){ done();});
+gulp.task('release',['gp','tag'], function(done){ done();});
 
 gulp.task('default',['font'], function(done){ done();});
 
