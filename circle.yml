@@ -1,5 +1,6 @@
 dependencies:
   pre:
+    - ls -l
     - rm -rf node_modules
     - npm install
     - npm install -g gulp
@@ -12,6 +13,7 @@ deployment:
   production:
     branch: master
     commands:
+      - ls -l
       - echo "doing a patch update!"
       - git config --global user.email "mrportertechteam@mrporter.com"
       - git config --global user.name "mrporterdev"
