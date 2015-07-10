@@ -1,6 +1,6 @@
 {
   "name": "mrporterfont",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "homepage": "https://github.com/NET-A-PORTER/mrporterfont",
   "description": "Symbol font templates for Sketch.app",
   "scripts": {
@@ -10,11 +10,11 @@
     "coffee-script": "^1.9.3",
     "gh-pages": "^0.3.1",
     "gulp": "^3.9.0",
-    "gulp-clean": "^0.3.1",
     "gulp-consolidate": "^0.1.2",
     "gulp-iconfont": "^2.0.0",
     "gulp-rename": "^1.2.2",
     "gulp-sketch": "^0.0.9",
-    "lodash": "^3.9.3"
+    "lodash": "^3.9.3",
+    "rimraf": "^2.4.1"
   }
 }
