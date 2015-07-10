@@ -57,7 +57,7 @@ gulp.task('font',['clean'], function(){
 gulp.task('clean', function (done) {
   var rimraf = require('rimraf');
   rimraf('dist/**/*', function(err) {
-    done(err);
+    done();
   })
 });
 
