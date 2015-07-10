@@ -3,7 +3,7 @@ var rename = require("gulp-rename");
 var sketch = require("gulp-sketch");
 var iconfont = require('gulp-iconfont');
 var consolidate = require('gulp-consolidate');
-var rimraf = require('rimraf');
+
 
 
 var version = require('./package.json').version;
@@ -52,6 +52,7 @@ gulp.task('default',['clean'], function(){
 });
 
 gulp.task('clean', function (done) {
+  var rimraf = require('rimraf');
   rimraf('dist/**/*', function(err) {
     done(err);
   })
@@ -66,7 +67,7 @@ gulp.task('tag', function (done) {
   child_process.exec(command, function(error, stdout, stderr){
   	console.log(stdout);
     console.log(command);
-    done(error);
+    done();
   });
 
 });
