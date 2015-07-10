@@ -36,7 +36,7 @@ gulp.task('font',['clean'], function(){
 
     gulp.src('templates/' + template + '.scss')
     .pipe(consolidate('lodash', options))
-    .pipe(rename({ basename:fontName }))
+    .pipe(rename({ basename:font }))
     .pipe(gulp.dest('dist/')); // set path to export your SCSS
     console.log(options)
     // if you don't need sample.html, remove next 4 lines
