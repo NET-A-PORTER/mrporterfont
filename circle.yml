@@ -15,7 +15,7 @@ deployment:
       - git config --global user.email "mrportertechteam@mrporter.com"
       - git config --global user.name "mrporterdev"
       - npm version patch
-      - gulp
+      - gulp font
       - gulp tag
-      - git commit --a -m 'automated patching [ci skip]'
+      - git commit -a -m 'automated patching [ci skip]'
       - git push
