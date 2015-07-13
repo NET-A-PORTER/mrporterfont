@@ -26,5 +26,11 @@
   -moz-osx-font-smoothing:grayscale;
 }
 
+<%= glyphs.map(function(glyph){ return '.' + className + '--' + glyph.name + ':hover' }).join(',\n') %> {
+  opacity: 0.5;
+}
+
+
+
 <% _.each(glyphs, function(glyph) { %>.<%= className %>--<%= glyph.name %>:before { content: "\<%= glyph.codepoint.toString(16).toUpperCase() %>" }
 <% }); %>
