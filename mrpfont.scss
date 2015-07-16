@@ -9,6 +9,7 @@
   font-style: normal;
 }
 
+.mrpfont--bag:before,
 .mrpfont--chevron:before,
 .mrpfont--close:before,
 .mrpfont--minus:before,
@@ -30,6 +31,7 @@
   -moz-osx-font-smoothing:grayscale;
 }
 
+.mrpfont--bag:hover,
 .mrpfont--chevron:hover,
 .mrpfont--close:hover,
 .mrpfont--minus:hover,
@@ -40,8 +42,9 @@
 
 
 
-.mrpfont--chevron:before { content: "\EA01" }
-.mrpfont--close:before { content: "\EA02" }
-.mrpfont--minus:before { content: "\EA03" }
-.mrpfont--plus:before { content: "\EA04" }
-.mrpfont--star:before { content: "\EA05" }
+.mrpfont--bag:before { content: "\EA01" }
+.mrpfont--chevron:before { content: "\EA02" }
+.mrpfont--close:before { content: "\EA03" }
+.mrpfont--minus:before { content: "\EA04" }
+.mrpfont--plus:before { content: "\EA05" }
+.mrpfont--star:before { content: "\EA06" }
