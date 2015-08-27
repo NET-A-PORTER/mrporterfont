@@ -9,13 +9,14 @@
   font-style: normal;
 }
 
-.mrpfont--chevron:before,
 .mrpfont--bag:before,
+.mrpfont--chevron:before,
 .mrpfont--close:before,
 .mrpfont--minus:before,
 .mrpfont--plus:before,
 .mrpfont--size-help:before,
 .mrpfont--star:before,
+.mrpfont--tick:before,
 .mrpfont--wish-list:before {
   font-family: "mrpfont-v0.0.20";
   font-style: normal;
@@ -33,24 +34,26 @@
   -moz-osx-font-smoothing:grayscale;
 }
 
-.mrpfont--chevron:hover,
 .mrpfont--bag:hover,
+.mrpfont--chevron:hover,
 .mrpfont--close:hover,
 .mrpfont--minus:hover,
 .mrpfont--plus:hover,
 .mrpfont--size-help:hover,
 .mrpfont--star:hover,
+.mrpfont--tick:hover,
 .mrpfont--wish-list:hover {
   opacity: 0.5;
 }
 
 
 
-.mrpfont--chevron:before { content: "\EA01" }
-.mrpfont--bag:before { content: "\EA02" }
+.mrpfont--bag:before { content: "\EA01" }
+.mrpfont--chevron:before { content: "\EA02" }
 .mrpfont--close:before { content: "\EA03" }
 .mrpfont--minus:before { content: "\EA04" }
 .mrpfont--plus:before { content: "\EA05" }
 .mrpfont--size-help:before { content: "\EA06" }
 .mrpfont--star:before { content: "\EA07" }
-.mrpfont--wish-list:before { content: "\EA08" }
+.mrpfont--tick:before { content: "\EA08" }
+.mrpfont--wish-list:before { content: "\EA09" }
