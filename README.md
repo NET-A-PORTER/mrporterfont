@@ -1,6 +1,11 @@
 [Mr Porter Font](http://net-a-porter.github.io/mrporterfont/)
 ===
 
+## Credit
+this prject is a clone of https://github.com/cognitom/symbols-for-sketch, adapted for Mr Porter.
+
+
+
 ![Screenshot of Template](images/webfonts.png)
 
 #The Font
