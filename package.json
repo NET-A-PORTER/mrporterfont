@@ -1,6 +1,10 @@
 {
   "name": "mrporterfont",
+<<<<<<< HEAD
   "version": "0.0.24",
+=======
+  "version": "0.0.22",
+>>>>>>> b2d03196de3a60feabc4de71fa1cfdf53dcdef57
   "homepage": "https://github.com/NET-A-PORTER/mrporterfont",
   "description": "Symbol font templates for Sketch.app",
   "scripts": {
