@@ -28,9 +28,7 @@ gulp.task('font',['clean'], function(){
       className: font // set class name in your CSS
     };
     // xite needs the fonts from the a different path
-    var optionsXite = options;
-    optionsXite.fontPath = "../fonts/";
-    console.log(optionsXite)
+    var optionsXite = Object.create(options);;
 
     gulp.src('templates/' + template + '.css')
     .pipe(consolidate('lodash', options))
@@ -43,10 +41,13 @@ gulp.task('font',['clean'], function(){
     .pipe(rename({ basename:font+'-v'+version }))
     .pipe(gulp.dest('dist/')); // set path to export your SCSS
 
+
+    optionsXite.fontPath = "../fonts/";
+
     gulp.src('templates/' + template + '.scss')
     .pipe(consolidate('lodash', optionsXite))
     .pipe(rename({ basename:font + 'xsite-v'+version }))
-    .pipe(gulp.dest('dist/font/')); // set path to export your SCSS
+    .pipe(gulp.dest('dist/')); // set path to export your SCSS
 
     // if you don't need sample.html, remove next 4 lines
     gulp.src('templates/' + template + '.html')
