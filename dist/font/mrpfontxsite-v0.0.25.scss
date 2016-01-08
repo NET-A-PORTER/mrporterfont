@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "mrpfont-v0.0.25";
+  src: url('../fonts/mrpfont-v0.0.25.eot');
+  src: url('../fonts/mrpfont-v0.0.25.eot?#iefix') format('eot'),
+    url('../fonts/mrpfont-v0.0.25.woff') format('woff'),
+    url('../fonts/mrpfont-v0.0.25.ttf') format('truetype'),
+    url('../fonts/mrpfont-v0.0.25.svg#mrpfont-v0.0.25') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.mrpfont--bag:before,
+.mrpfont--chevron:before,
+.mrpfont--close:before,
+.mrpfont--minus:before,
+.mrpfont--play:before,
+.mrpfont--plus:before,
+.mrpfont--size-help:before,
+.mrpfont--star:before,
+.mrpfont--tick:before,
+.mrpfont--wish-list:before {
+  font-family: "mrpfont-v0.0.25";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  display:inline-block;
+  vertical-align:middle;
+  line-height:1;
+  speak:none;
+  text-decoration:inherit;
+  text-transform:none;
+  text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.mrpfont--bag:hover,
+.mrpfont--chevron:hover,
+.mrpfont--close:hover,
+.mrpfont--minus:hover,
+.mrpfont--play:hover,
+.mrpfont--plus:hover,
+.mrpfont--size-help:hover,
+.mrpfont--star:hover,
+.mrpfont--tick:hover,
+.mrpfont--wish-list:hover {
+  opacity: 0.5;
+}
+
+
+
+.mrpfont--bag:before { content: "\EA01" }
+.mrpfont--chevron:before { content: "\EA02" }
+.mrpfont--close:before { content: "\EA03" }
+.mrpfont--minus:before { content: "\EA04" }
+.mrpfont--play:before { content: "\EA05" }
+.mrpfont--plus:before { content: "\EA06" }
+.mrpfont--size-help:before { content: "\EA07" }
+.mrpfont--star:before { content: "\EA08" }
+.mrpfont--tick:before { content: "\EA09" }
+.mrpfont--wish-list:before { content: "\EA0A" }

@@ -1,6 +1,6 @@
 {
   "name": "mrporterfont",
-  "version": "0.0.24",
+  "version": "0.0.21",
   "homepage": "https://github.com/NET-A-PORTER/mrporterfont",
   "authors": [
     "Sabeur Thabti <sabeur.thabti@net-a-porter.com>"
@@ -17,7 +17,16 @@
     "**/*",
     "node_modules",
     "bower_components",
-    "dist/css/**/*"
     "!dist/**/*"
-  ]
+  ],
+  "_release": "0.0.21",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.21",
+    "commit": "4a20246858aacca24e570032629c38a1b924cddb"
+  },
+  "_source": "git://github.com/NET-A-PORTER/mrporterfont.git",
+  "_target": "~0.0.21",
+  "_originalSource": "mrporterfont",
+  "_direct": true
 }

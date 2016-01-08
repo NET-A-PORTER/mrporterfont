@@ -8,7 +8,7 @@ var version = require('./package.json').version;
 var fontName = 'mrpfont-v'+version; // set name of your symbol font
 var template = 'mrporter-style'; // you can also choose 'foundation-style'
 var font = 'mrpfont';
-
+console.log(process.env.TYPE)
 gulp.task('font',['clean'], function(){
   gulp.src('mrporter.sketch') // you can also choose 'symbol-font-16px.sketch'
   .pipe(sketch({
@@ -27,18 +27,27 @@ gulp.task('font',['clean'], function(){
       fontPath: 'fonts/', // set path to font (from your CSS file if relative)
       className: font // set class name in your CSS
     };
-
+    // xite needs the fonts from the a different path
+    var optionsXite = options;
+    optionsXite.fontPath = "../fonts/";
+    console.log(optionsXite)
 
     gulp.src('templates/' + template + '.css')
     .pipe(consolidate('lodash', options))
     .pipe(rename({ basename:fontName }))
     .pipe(gulp.dest('dist/css/')); // set path to export your CSS
 
+    // path of the font being fonts/
     gulp.src('templates/' + template + '.scss')
     .pipe(consolidate('lodash', options))
-    .pipe(rename({ basename:font }))
+    .pipe(rename({ basename:font+'-v'+version }))
     .pipe(gulp.dest('dist/')); // set path to export your SCSS
-    console.log(options)
+
+    gulp.src('templates/' + template + '.scss')
+    .pipe(consolidate('lodash', optionsXite))
+    .pipe(rename({ basename:font + 'xsite-v'+version }))
+    .pipe(gulp.dest('dist/font/')); // set path to export your SCSS
+
     // if you don't need sample.html, remove next 4 lines
     gulp.src('templates/' + template + '.html')
     .pipe(consolidate('lodash', options))
