@@ -14,6 +14,8 @@ deployment:
       - git config --global push.default simple
       - git config --global user.email "mrportertechteam@mrporter.com"
       - git config --global user.name "mrporterdev"
+      - npm version patch
+      - git pull origin master
       - git commit --amend -m 'automated patching [ci skip]'
       - git push
       - npm publish ./
