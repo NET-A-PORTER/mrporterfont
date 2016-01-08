@@ -2,6 +2,7 @@ dependencies:
   pre:
     - npm install
     - npm install -g gulp
+    - sh login.sh
 
 test:
   override:
@@ -14,4 +15,6 @@ deployment:
       - echo "doing a patch update!"
       - git config --global user.email "mrportertechteam@mrporter.com"
       - git config --global user.name "mrporterdev"
-      - gulp release
+      - git commit --amend -m 'automated patching [ci skip]'
+      - git push
+      - npm publish ./
