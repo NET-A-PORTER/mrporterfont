@@ -38,7 +38,7 @@ gulp.task('font',['clean'], function(){
     // path of the font being fonts/
     gulp.src('templates/' + template + '.scss')
     .pipe(consolidate('lodash', options))
-    .pipe(rename({ basename:font+'-v'+version }))
+    .pipe(rename({ basename:font }))
     .pipe(gulp.dest('dist/')); // set path to export your SCSS
 
 
@@ -46,7 +46,7 @@ gulp.task('font',['clean'], function(){
 
     gulp.src('templates/' + template + '.scss')
     .pipe(consolidate('lodash', optionsXite))
-    .pipe(rename({ basename:font + 'xsite-v'+version }))
+    .pipe(rename({ basename:font + 'xsite-v'}))
     .pipe(gulp.dest('dist/')); // set path to export your SCSS
 
     // if you don't need sample.html, remove next 4 lines
