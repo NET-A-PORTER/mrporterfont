@@ -8,7 +8,7 @@ var version = require('./package.json').version;
 var fontName = 'mrpfont-v'+version; // set name of your symbol font
 var template = 'mrporter-style'; // you can also choose 'foundation-style'
 var font = 'mrpfont';
-console.log(process.env.TYPE)
+
 gulp.task('font',['clean'], function(){
   gulp.src('mrporter.sketch') // you can also choose 'symbol-font-16px.sketch'
   .pipe(sketch({
