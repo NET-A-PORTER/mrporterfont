@@ -1,7 +1,7 @@
 dependencies:
   pre:
     - sh login.sh
-    -npm install -g gulp
+    - npm install -g gulp
 
 test:
   override:
