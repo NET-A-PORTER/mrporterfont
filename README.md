@@ -1,4 +1,4 @@
-[Mr Porter Font](http://net-a-porter.github.io/mrporterfont/)
+[Mr Porter Font](http://net-a-porter.github.io/mrporterfont/) [![Circle CI](https://circleci.com/gh/NET-A-PORTER/mrporterfont/tree/master.svg?style=svg&circle-token=589efad1982e43519f45218cca4d871bb03e2977)](https://circleci.com/gh/NET-A-PORTER/mrporterfont/tree/master)
 ===
 
 #Demo
