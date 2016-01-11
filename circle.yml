@@ -1,6 +1,7 @@
 dependencies:
   pre:
     - sh login.sh
+    -npm install -g gulp
 
 test:
   override:
@@ -15,3 +16,4 @@ deployment:
       - git config --global user.email "mrportertechteam@mrporter.com"
       - git config --global user.name "mrporterdev"
       - npm publish ./
+      - gulp gp
