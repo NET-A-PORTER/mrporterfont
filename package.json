@@ -11,9 +11,9 @@
     "gh-pages": "^0.3.1",
     "gulp": "^3.9.0",
     "gulp-consolidate": "^0.1.2",
-    "gulp-iconfont": "^2.0.0",
+    "gulp-iconfont": "^5.0.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sketch": "^0.0.9",
+    "gulp-sketch": "^0.1.0",
     "lodash": "^3.9.3",
     "rimraf": "^2.4.1"
   }
