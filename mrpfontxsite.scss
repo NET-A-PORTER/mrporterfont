@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "mrpfont-v0.0.28";
-  src: url('../fonts/mrpfont-v0.0.28.eot');
-  src: url('../fonts/mrpfont-v0.0.28.eot?#iefix') format('eot'),
-    url('../fonts/mrpfont-v0.0.28.woff') format('woff'),
-    url('../fonts/mrpfont-v0.0.28.ttf') format('truetype'),
-    url('../fonts/mrpfont-v0.0.28.svg#mrpfont-v0.0.28') format('svg');
+  font-family: "mrpfont-v0.0.29";
+  src: url('../fonts/mrpfont-v0.0.29.eot');
+  src: url('../fonts/mrpfont-v0.0.29.eot?#iefix') format('eot'),
+    url('../fonts/mrpfont-v0.0.29.woff') format('woff'),
+    url('../fonts/mrpfont-v0.0.29.ttf') format('truetype'),
+    url('../fonts/mrpfont-v0.0.29.svg#mrpfont-v0.0.29') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -20,7 +20,7 @@
 .mrpfont--star:before,
 .mrpfont--tick:before,
 .mrpfont--wish-list:before {
-  font-family: "mrpfont-v0.0.28";
+  font-family: "mrpfont-v0.0.29";
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -35,22 +35,6 @@
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
 }
-
-.mrpfont--bag:hover,
-.mrpfont--chevron:hover,
-.mrpfont--close:hover,
-.mrpfont--info:hover,
-.mrpfont--minus:hover,
-.mrpfont--play:hover,
-.mrpfont--plus:hover,
-.mrpfont--size-help:hover,
-.mrpfont--star:hover,
-.mrpfont--tick:hover,
-.mrpfont--wish-list:hover {
-  opacity: 0.5;
-}
-
-
 
 .mrpfont--bag:before { content: "\EA01" }
 .mrpfont--chevron:before { content: "\EA02" }
