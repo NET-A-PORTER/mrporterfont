@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "mrpfont-v0.0.27";
-  src: url('../fonts/mrpfont-v0.0.27.eot');
-  src: url('../fonts/mrpfont-v0.0.27.eot?#iefix') format('eot'),
-    url('../fonts/mrpfont-v0.0.27.woff') format('woff'),
-    url('../fonts/mrpfont-v0.0.27.ttf') format('truetype'),
-    url('../fonts/mrpfont-v0.0.27.svg#mrpfont-v0.0.27') format('svg');
+  font-family: "mrpfont-v0.0.28";
+  src: url('../fonts/mrpfont-v0.0.28.eot');
+  src: url('../fonts/mrpfont-v0.0.28.eot?#iefix') format('eot'),
+    url('../fonts/mrpfont-v0.0.28.woff') format('woff'),
+    url('../fonts/mrpfont-v0.0.28.ttf') format('truetype'),
+    url('../fonts/mrpfont-v0.0.28.svg#mrpfont-v0.0.28') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -12,6 +12,7 @@
 .mrpfont--bag:before,
 .mrpfont--chevron:before,
 .mrpfont--close:before,
+.mrpfont--info:before,
 .mrpfont--minus:before,
 .mrpfont--play:before,
 .mrpfont--plus:before,
@@ -19,7 +20,7 @@
 .mrpfont--star:before,
 .mrpfont--tick:before,
 .mrpfont--wish-list:before {
-  font-family: "mrpfont-v0.0.27";
+  font-family: "mrpfont-v0.0.28";
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -38,6 +39,7 @@
 .mrpfont--bag:hover,
 .mrpfont--chevron:hover,
 .mrpfont--close:hover,
+.mrpfont--info:hover,
 .mrpfont--minus:hover,
 .mrpfont--play:hover,
 .mrpfont--plus:hover,
@@ -53,10 +55,11 @@
 .mrpfont--bag:before { content: "\EA01" }
 .mrpfont--chevron:before { content: "\EA02" }
 .mrpfont--close:before { content: "\EA03" }
-.mrpfont--minus:before { content: "\EA04" }
-.mrpfont--play:before { content: "\EA05" }
-.mrpfont--plus:before { content: "\EA06" }
-.mrpfont--size-help:before { content: "\EA07" }
-.mrpfont--star:before { content: "\EA08" }
-.mrpfont--tick:before { content: "\EA09" }
-.mrpfont--wish-list:before { content: "\EA0A" }
+.mrpfont--info:before { content: "\EA04" }
+.mrpfont--minus:before { content: "\EA05" }
+.mrpfont--play:before { content: "\EA06" }
+.mrpfont--plus:before { content: "\EA07" }
+.mrpfont--size-help:before { content: "\EA08" }
+.mrpfont--star:before { content: "\EA09" }
+.mrpfont--tick:before { content: "\EA0A" }
+.mrpfont--wish-list:before { content: "\EA0B" }
