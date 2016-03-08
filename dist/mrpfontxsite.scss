@@ -1,15 +1,16 @@
 @font-face {
-  font-family: "mrpfont-v0.0.29";
-  src: url('../fonts/mrpfont-v0.0.29.eot');
-  src: url('../fonts/mrpfont-v0.0.29.eot?#iefix') format('eot'),
-    url('../fonts/mrpfont-v0.0.29.woff') format('woff'),
-    url('../fonts/mrpfont-v0.0.29.ttf') format('truetype'),
-    url('../fonts/mrpfont-v0.0.29.svg#mrpfont-v0.0.29') format('svg');
+  font-family: "mrpfont-v0.0.30";
+  src: url('../fonts/mrpfont-v0.0.30.eot');
+  src: url('../fonts/mrpfont-v0.0.30.eot?#iefix') format('eot'),
+    url('../fonts/mrpfont-v0.0.30.woff') format('woff'),
+    url('../fonts/mrpfont-v0.0.30.ttf') format('truetype'),
+    url('../fonts/mrpfont-v0.0.30.svg#mrpfont-v0.0.30') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 .mrpfont--bag:before,
+.mrpfont--call:before,
 .mrpfont--chevron:before,
 .mrpfont--close:before,
 .mrpfont--info:before,
@@ -17,10 +18,13 @@
 .mrpfont--play:before,
 .mrpfont--plus:before,
 .mrpfont--size-help:before,
+.mrpfont--sms:before,
 .mrpfont--star:before,
 .mrpfont--tick:before,
+.mrpfont--wechat:before,
+.mrpfont--whatsapp:before,
 .mrpfont--wish-list:before {
-  font-family: "mrpfont-v0.0.29";
+  font-family: "mrpfont-v0.0.30";
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -37,13 +41,17 @@
 }
 
 .mrpfont--bag:before { content: "\EA01" }
-.mrpfont--chevron:before { content: "\EA02" }
-.mrpfont--close:before { content: "\EA03" }
-.mrpfont--info:before { content: "\EA04" }
-.mrpfont--minus:before { content: "\EA05" }
-.mrpfont--play:before { content: "\EA06" }
-.mrpfont--plus:before { content: "\EA07" }
-.mrpfont--size-help:before { content: "\EA08" }
-.mrpfont--star:before { content: "\EA09" }
-.mrpfont--tick:before { content: "\EA0A" }
-.mrpfont--wish-list:before { content: "\EA0B" }
+.mrpfont--call:before { content: "\EA02" }
+.mrpfont--chevron:before { content: "\EA03" }
+.mrpfont--close:before { content: "\EA04" }
+.mrpfont--info:before { content: "\EA05" }
+.mrpfont--minus:before { content: "\EA06" }
+.mrpfont--play:before { content: "\EA07" }
+.mrpfont--plus:before { content: "\EA08" }
+.mrpfont--size-help:before { content: "\EA09" }
+.mrpfont--sms:before { content: "\EA0A" }
+.mrpfont--star:before { content: "\EA0B" }
+.mrpfont--tick:before { content: "\EA0C" }
+.mrpfont--wechat:before { content: "\EA0D" }
+.mrpfont--whatsapp:before { content: "\EA0E" }
+.mrpfont--wish-list:before { content: "\EA0F" }

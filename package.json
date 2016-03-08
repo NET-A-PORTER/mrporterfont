@@ -1,10 +1,10 @@
 {
   "name": "@mrporter/mrporterfont",
-  "version": "0.0.29",
+  "version": "0.0.30",
   "homepage": "https://github.com/NET-A-PORTER/mrporterfont",
   "description": "Symbol font templates for Sketch.app",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node_modules/.bin/gulp"
   },
   "devDependencies": {
     "coffee-script": "^1.9.3",
