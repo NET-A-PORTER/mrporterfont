@@ -13,17 +13,25 @@
 .mrpfont--call:before,
 .mrpfont--chevron:before,
 .mrpfont--close:before,
+.mrpfont--facebook:before,
+.mrpfont--google:before,
 .mrpfont--info:before,
+.mrpfont--instagram:before,
+.mrpfont--mail:before,
 .mrpfont--minus:before,
+.mrpfont--pinterest:before,
 .mrpfont--play:before,
 .mrpfont--plus:before,
 .mrpfont--size-help:before,
 .mrpfont--sms:before,
 .mrpfont--star:before,
 .mrpfont--tick:before,
+.mrpfont--tumblr:before,
+.mrpfont--twitter:before,
 .mrpfont--wechat:before,
 .mrpfont--whatsapp:before,
-.mrpfont--wish-list:before {
+.mrpfont--wish-list:before,
+.mrpfont--youtube:before {
   font-family: "mrpfont-v0.0.30";
   font-style: normal;
   font-weight: normal;
@@ -44,14 +52,22 @@
 .mrpfont--call:before { content: "\EA02" }
 .mrpfont--chevron:before { content: "\EA03" }
 .mrpfont--close:before { content: "\EA04" }
-.mrpfont--info:before { content: "\EA05" }
-.mrpfont--minus:before { content: "\EA06" }
-.mrpfont--play:before { content: "\EA07" }
-.mrpfont--plus:before { content: "\EA08" }
-.mrpfont--size-help:before { content: "\EA09" }
-.mrpfont--sms:before { content: "\EA0A" }
-.mrpfont--star:before { content: "\EA0B" }
-.mrpfont--tick:before { content: "\EA0C" }
-.mrpfont--wechat:before { content: "\EA0D" }
-.mrpfont--whatsapp:before { content: "\EA0E" }
-.mrpfont--wish-list:before { content: "\EA0F" }
+.mrpfont--facebook:before { content: "\EA05" }
+.mrpfont--google:before { content: "\EA06" }
+.mrpfont--info:before { content: "\EA07" }
+.mrpfont--instagram:before { content: "\EA08" }
+.mrpfont--mail:before { content: "\EA09" }
+.mrpfont--minus:before { content: "\EA0A" }
+.mrpfont--pinterest:before { content: "\EA0B" }
+.mrpfont--play:before { content: "\EA0C" }
+.mrpfont--plus:before { content: "\EA0D" }
+.mrpfont--size-help:before { content: "\EA0E" }
+.mrpfont--sms:before { content: "\EA0F" }
+.mrpfont--star:before { content: "\EA10" }
+.mrpfont--tick:before { content: "\EA11" }
+.mrpfont--tumblr:before { content: "\EA12" }
+.mrpfont--twitter:before { content: "\EA13" }
+.mrpfont--wechat:before { content: "\EA14" }
+.mrpfont--whatsapp:before { content: "\EA15" }
+.mrpfont--wish-list:before { content: "\EA16" }
+.mrpfont--youtube:before { content: "\EA17" }
