@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "mrpfont-v0.0.33";
-  src: url('../fonts/mrpfont-v0.0.33.eot');
-  src: url('../fonts/mrpfont-v0.0.33.eot?#iefix') format('eot'),
-    url('../fonts/mrpfont-v0.0.33.woff') format('woff'),
-    url('../fonts/mrpfont-v0.0.33.ttf') format('truetype'),
-    url('../fonts/mrpfont-v0.0.33.svg#mrpfont-v0.0.33') format('svg');
+  font-family: "mrpfont-v0.0.34";
+  src: url('../fonts/mrpfont-v0.0.34.eot');
+  src: url('../fonts/mrpfont-v0.0.34.eot?#iefix') format('eot'),
+    url('../fonts/mrpfont-v0.0.34.woff') format('woff'),
+    url('../fonts/mrpfont-v0.0.34.ttf') format('truetype'),
+    url('../fonts/mrpfont-v0.0.34.svg#mrpfont-v0.0.34') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -30,10 +30,11 @@
 .mrpfont--tumblr:before,
 .mrpfont--twitter:before,
 .mrpfont--wechat:before,
+.mrpfont--weibo:before,
 .mrpfont--whatsapp:before,
 .mrpfont--wish-list:before,
 .mrpfont--youtube:before {
-  font-family: "mrpfont-v0.0.33";
+  font-family: "mrpfont-v0.0.34";
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -70,6 +71,7 @@
 .mrpfont--tumblr:before { content: "\EA13" }
 .mrpfont--twitter:before { content: "\EA14" }
 .mrpfont--wechat:before { content: "\EA15" }
-.mrpfont--whatsapp:before { content: "\EA16" }
-.mrpfont--wish-list:before { content: "\EA17" }
-.mrpfont--youtube:before { content: "\EA18" }
+.mrpfont--weibo:before { content: "\EA16" }
+.mrpfont--whatsapp:before { content: "\EA17" }
+.mrpfont--wish-list:before { content: "\EA18" }
+.mrpfont--youtube:before { content: "\EA19" }
