@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "mrpfont-v1.0.0";
-  src: url('fonts/mrpfont-v1.0.0.eot');
-  src: url('fonts/mrpfont-v1.0.0.eot?#iefix') format('eot'),
-    url('fonts/mrpfont-v1.0.0.woff') format('woff'),
-    url('fonts/mrpfont-v1.0.0.ttf') format('truetype'),
-    url('fonts/mrpfont-v1.0.0.svg#mrpfont-v1.0.0') format('svg');
+  font-family: "mrpfont-v0.0.35";
+  src: url('fonts/mrpfont-v0.0.35.eot');
+  src: url('fonts/mrpfont-v0.0.35.eot?#iefix') format('eot'),
+    url('fonts/mrpfont-v0.0.35.woff') format('woff'),
+    url('fonts/mrpfont-v0.0.35.ttf') format('truetype'),
+    url('fonts/mrpfont-v0.0.35.svg#mrpfont-v0.0.35') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -35,7 +35,7 @@
 .mrpfont--whatsapp:before,
 .mrpfont--wish-list:before,
 .mrpfont--youtube:before {
-  font-family: "mrpfont-v1.0.0";
+  font-family: "mrpfont-v0.0.35";
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
