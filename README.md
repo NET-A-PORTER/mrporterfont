@@ -33,19 +33,13 @@ html:
 - [gulp.js](http://gulpjs.com/)
 
 
-### Setup Tools
+## Contributing
 
-#### Sketch and Sketch Tools
+- Update the sketch file with you latest icon
+- Increment the package.json version number
+- Run `npm start` (will generate the new font
+- git add --all
+- git commit -m 'adding an example icon'
+- git push
 
-You haven't got Sketch yet? Visit [App Store](https://itunes.apple.com/jp/app/sketch-3/id852320343?l=en&mt=12). It's worth more than its price tag. Next, get the `sketchtool` to controll Sketch.app via CLI.
-
-0. Download [Sketch Tools](http://sketchtool.bohemiancoding.com/sketchtool-latest.zip).
-0. Unzip the archive.
-0. Open Terminal.
-0. Change the current directory to the unziped folder.
-0. Run the instll script and enter your password.
-
-```bash
-$ cd ~/Donwloads/scketchtool/
-$ sudo ./install.sh
-```
+Circle-ci will take care of publishing both the npm module and the github pages. 
