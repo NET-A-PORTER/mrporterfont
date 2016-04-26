@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "mrpfont-v1.2.1";
+  src: url('fonts/mrpfont-v1.2.1.eot');
+  src: url('fonts/mrpfont-v1.2.1.eot?#iefix') format('eot'),
+    url('fonts/mrpfont-v1.2.1.woff') format('woff'),
+    url('fonts/mrpfont-v1.2.1.ttf') format('truetype'),
+    url('fonts/mrpfont-v1.2.1.svg#mrpfont-v1.2.1') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.mrpfont--alert:before,
+.mrpfont--bag:before,
+.mrpfont--call:before,
+.mrpfont--chevron:before,
+.mrpfont--close:before,
+.mrpfont--conceal:before,
+.mrpfont--eip:before,
+.mrpfont--facebook:before,
+.mrpfont--google:before,
+.mrpfont--info:before,
+.mrpfont--instagram:before,
+.mrpfont--linkedin:before,
+.mrpfont--lock:before,
+.mrpfont--mail:before,
+.mrpfont--minus:before,
+.mrpfont--pinterest:before,
+.mrpfont--play:before,
+.mrpfont--plus:before,
+.mrpfont--reveal:before,
+.mrpfont--size-help:before,
+.mrpfont--sms:before,
+.mrpfont--star:before,
+.mrpfont--tick:before,
+.mrpfont--tumblr:before,
+.mrpfont--twitter:before,
+.mrpfont--wechat:before,
+.mrpfont--weibo:before,
+.mrpfont--whatsapp:before,
+.mrpfont--wish-list:before,
+.mrpfont--youtube:before {
+  font-family: "mrpfont-v1.2.1";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  display:inline-block;
+  vertical-align:middle;
+  line-height:1;
+  speak:none;
+  text-decoration:inherit;
+  text-transform:none;
+  text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.mrpfont--alert:before { content: "\EA01" }
+.mrpfont--bag:before { content: "\EA02" }
+.mrpfont--call:before { content: "\EA03" }
+.mrpfont--chevron:before { content: "\EA04" }
+.mrpfont--close:before { content: "\EA05" }
+.mrpfont--conceal:before { content: "\EA06" }
+.mrpfont--eip:before { content: "\EA07" }
+.mrpfont--facebook:before { content: "\EA08" }
+.mrpfont--google:before { content: "\EA09" }
+.mrpfont--info:before { content: "\EA0A" }
+.mrpfont--instagram:before { content: "\EA0B" }
+.mrpfont--linkedin:before { content: "\EA0C" }
+.mrpfont--lock:before { content: "\EA0D" }
+.mrpfont--mail:before { content: "\EA0E" }
+.mrpfont--minus:before { content: "\EA0F" }
+.mrpfont--pinterest:before { content: "\EA10" }
+.mrpfont--play:before { content: "\EA11" }
+.mrpfont--plus:before { content: "\EA12" }
+.mrpfont--reveal:before { content: "\EA13" }
+.mrpfont--size-help:before { content: "\EA14" }
+.mrpfont--sms:before { content: "\EA15" }
+.mrpfont--star:before { content: "\EA16" }
+.mrpfont--tick:before { content: "\EA17" }
+.mrpfont--tumblr:before { content: "\EA18" }
+.mrpfont--twitter:before { content: "\EA19" }
+.mrpfont--wechat:before { content: "\EA1A" }
+.mrpfont--weibo:before { content: "\EA1B" }
+.mrpfont--whatsapp:before { content: "\EA1C" }
+.mrpfont--wish-list:before { content: "\EA1D" }
+.mrpfont--youtube:before { content: "\EA1E" }
